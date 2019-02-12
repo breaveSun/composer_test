@@ -1,0 +1,24 @@
+{
+    "name": "bravesun/composer_test",
+    "description": "this is test",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huhu",
+            "email": "2528280083@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+	"psr-4": {
+        	"Bravesun\\": "src/"
+    	}
+     }
+}
